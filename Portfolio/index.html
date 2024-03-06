@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swathi Vanteru</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1880ce40d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoimages.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Service</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark"></i>  -->
+                </ul>
+                 <!-- <i class="fa-solid fa-bars"></i>  -->
+            </nav>
+            <div class="header-text">
+                <p>Computer Science student</p>
+                <h1>Hi, I'm <span>Swathi Vanteru</span> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/pic3-removebg-preview.png" alt="pic" width="480" height="310">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-tittle">About Me</h1><br/>
+                    <p class="content">As a highly motivated and proactive computer science graduate, I am eager to secure 
+                        a challenging position in the IT sector where I can leverage my technical skills and gain hands-
+                        on experience. I am passionate about contributing to innovative projects, continuously 
+                        expanding my knowledge, and making a meaningful impact within a dynamic team 
+                        environment</p>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>                           
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>Programming</span><br>Python,C,C++,Java</li>
+                                <li><span>Machine Learning</span><br>NLP,Open CV,Neural Networks</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2018</span><br>SSC 10th Grade with 9.8 CGPA <span>St.Ann's</span>Girls High School,Phirangipuram</li>
+                                <li><span>2020</span><br>12th Grade with 9.36 CGPA<span>Vasavi</span> Junior College,Narasaraopet</li>
+                                <li><span>B.Tech</span><br>Computer Science & Engineering 7.85 CGPA<span>Andhra Loyola Institute of Engineering and Technology</span>Vijayawada</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Insdian Servers</span><br>Machine Learning and Deep Learning Intern</li>
+                                <li><span>IIDT</span><br>Full Stack Developer Intern</li>
+                                <li><span>Bist Technologies</span><br>Data Science Intern</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------my work---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1><br/>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="work1" width="300" height="250">
+                    <div class="layer">
+                        <h3>Resume Analyzer</h3>
+                        <p>Find match percentage between given job discrption and resume.<br>
+                            If match percentage is greater than 75% then candidate<br>
+                             is eligible to apply for that job</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="work1" width="300" height="250">
+                    <div class="layer">
+                        <h3>Facial Expression Recognition</h3>
+                        <p>Identifying and categorizing emotional<br>
+                            expressions depicted on a human face.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpeg" alt="work1" width="300" height="250">
+                    <div class="layer">
+                        <h3>Drought prediction</h3>
+                        <p>Predicting drought depends on the ability to<br>
+                            forecast two fundamental meteorological surface parameters,<br>
+                             precipitation and temperature.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+             <a href="" class="btn1">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"><br><br>
+                    <h1 class="sub-tittle">Contact Me</h1><br/>
+                    <p><i class="fa-solid fa-envelope"></i>swathivanteru0607@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7981333562</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/profile.php/?id=100083528857368"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/swathi__vanteru?igsh=MTJ3cXptZ2d1aXIzcg=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/swathi-vanteru-9830ba217"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Mycv.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Name">
+                        <input type="email" name="email" placeholder="Enter mail">
+                        <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ---------copy right---------- -->
+        <div class="copyright">
+            <p>Copyright © by Swathi.Made with <i class="fa-solid fa-heart"></i></p>
+            <p>Thank You!</p>
+        </div>
+    </div>
+    <!-- script  -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwB8bXTYJ9ZQJVDrqjmsMSrFbBf0531suOVDUZz_RCBfbGev108WqcTO4DCCoqgTqWUHw/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
